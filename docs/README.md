@@ -1,10 +1,41 @@
-# Introduction
-Welcome to Augmntr Studio's documentation!
+# Website
 
----
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-Augmntr Studio was foudned on the idea that human interactions are inevitably going to be with other humans on the metaverse and with artificial intellegence. But to get mass adoption, creating an ecosystem that is both easy to access and intuitive with an immediate positive impact on people's lives. 
+### Installation
 
-For this to be possible, the human metaverse interaction space would have to be reimagined from the ground up. Our founders are building a propreitary AI architecture and tools to make AI and AR work for people and businesses at speed, scale and energy effeciency previously never thought achievable.
+```
+$ yarn
+```
 
-Welcome to the studio that is pioneering the AR metaverse space with AI. 
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

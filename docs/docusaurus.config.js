@@ -10,7 +10,8 @@ const config = {
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
 	organizationName: "startup-whitepaper", // Usually your GitHub org/user name.
-	projectName: "startup-whitepaper", // Usually your repo name.
+	projectName: "AugmntrCloud", // Usually your repo name.
+	deploymentBranch: ""
 	i18n: {
 		defaultLocale: "en",
 		locales: ["en"],

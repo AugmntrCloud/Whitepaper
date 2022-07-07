@@ -4,13 +4,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "Startup Whitepaper",
 	tagline: "",
-	url: "https://github.com",
+	url: "https://augmntrcloud.github.io/",
 	baseUrl: "/Whitepaper/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
-	organizationName: "AugmntrCloud", 	// Usually your GitHub org/user name.
-	projectName: "Whitepaper", 			// Usually your repo name.
+	organizationName: "AugmntrCloud", // Usually your GitHub org/user name.
+	projectName: "Whitepaper", // Usually your repo name.
 	deploymentBranch: "gh-pages",
 
 	i18n: {

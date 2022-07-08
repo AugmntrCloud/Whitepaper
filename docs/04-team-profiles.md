@@ -1,6 +1,5 @@
 ---
 title: The Team
-id: team
 slug: /
 ---
 

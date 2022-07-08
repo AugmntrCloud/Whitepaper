@@ -1,6 +1,5 @@
 ---
 title: Frequently Asked Questions
-id: faq
 slug: /
 ---
 

@@ -36,7 +36,7 @@ const config = {
 
 	themeConfig: {
 		navbar: {
-			title: "Startup Whitepaper",
+			title: "Introduction",
 			logo: {
 				alt: "My Site Logo",
 				src: "img/logo.png",
@@ -44,9 +44,9 @@ const config = {
 			items: [
 				{
 					type: "doc",
-					docId: "introduction",
+					docId: "Introduction",
 					position: "left",
-					label: "Startup Whitepaper",
+					label: "Introduction",
 				},
 			],
 		},
